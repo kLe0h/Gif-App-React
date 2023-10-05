@@ -2,7 +2,7 @@ import React, { useState } from "react";
 //importando desde index.js en components
 //CONCEPTO: cuando js busca una importación, trata de encontrar
 //primero un archivo index.js (este lo creamos para tener todas las importaciones)
-import { AddCategory, GifGrid } from "../components";
+import { AddCategory, GifGrid } from "./components";
 
 export const GifExpertApp = () => {
   //creando un Hook
