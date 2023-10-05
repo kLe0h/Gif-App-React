@@ -37,7 +37,7 @@ h3 {
 .card {
   align-content: center;
   align-items: center;
-  background-color: white;
+  background-color: black;
   border-radius: 10px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
   display: flex;
@@ -49,8 +49,10 @@ h3 {
   overflow: hidden;
 }
 
-.card p {
-  background-color: white;
+.card p, a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
   flex: 1;
   font-size: 1.5rem;
   margin-top: 5px;
